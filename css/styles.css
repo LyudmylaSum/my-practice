@@ -1,0 +1,50 @@
+/* 1. Скидання стандартних відступів та правильний розрахунок розмірів */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Базові налаштування шрифтів та плавна прокрутка */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* 3. Скидання стилів для списків та посилань */
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 4. Адаптивність зображень */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.container {
+  margin-left: 16px;
+}
+
+.list-item {
+  margin: 16px 16px;
+}
